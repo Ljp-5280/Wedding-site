@@ -18,6 +18,7 @@ footer {
 }
 
 
+
 body,html {
     overscroll-behavior: none;
 }
@@ -96,8 +97,8 @@ h1 {
 a {
     text-decoration: none;
     padding-right: 16px;
-    font-size: 32px;
-    color: black;
+    font-size: 24px;
+    color: rgba(190, 0, 0, 0.837);
   background: linear-gradient(currentColor 0 0) 
     bottom left/
     var(--underline-width, 0%) 0.1em
@@ -108,9 +109,6 @@ a {
   transition: background-size 0.5s;
 }
 
-a:hover {
-  color: rgb(255, 118, 141);
-}
 
 
 section {
@@ -139,8 +137,7 @@ div {
 p {
     color: rgba(190, 0, 0, 0.837);
     font-size: 32px;
-    margin-bottom: 32px;
-    margin: 0 auto
+    margin-top: 16px;
 }
 
 div {
@@ -199,12 +196,12 @@ div {
 .dropdown-toggle {
     margin-top: 32px;
     margin-bottom: 18px;
-    padding: 12px 32px;
-    font-size: 24px;
+    padding: 46px 40px;
+    font-size: 32px;
     color: rgb(162, 16, 16);
     background-color: black;
     border: 1px solid rgb(162, 16, 16);
-    border-radius: 5px;
+    border-radius: 400px;
     transition: all 300ms ease;
     box-shadow: rgb(138, 1, 1) -5px 5px, rgba(138, 1, 1, 0.454) -10px 10px, rgba(138, 1, 1, 0.386) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 }
@@ -279,8 +276,12 @@ body {
 
 @media (max-width: 768px) {
 
+    .dropdown-toggle {
+         padding: 40px 48px;
+    }
+
     p {
-        margin-bottom: 32px;
+        margin-bottom: 12px;
     }
      
     section {
@@ -326,6 +327,10 @@ body {
 
 }
 @media (max-width: 600px) {
+
+    .dropdown-toggle {
+         padding: 36px 32px;
+    }
      
     a{
          margin-bottom: 12px;
@@ -369,7 +374,7 @@ body {
 
     p{
         padding: 0 12px;
-        margin-bottom: 24px;
+        margin-bottom: 12px;
         text-align: center;
         color: rgba(186, 0, 0, 0.796)
     }
@@ -385,8 +390,13 @@ body {
 }
 @media (max-width: 500px) {
 
+    .dropdown-toggle {
+         padding: 28px 32px;
+    }
+
     a {
-         margin-bottom: 12px;
+         margin-bottom: 8px;
+          font-size: 20px;
     }
      
     section {
@@ -420,14 +430,11 @@ body {
         padding-top: 24px;
     }
 
-    a {
-        font-size: 20px;
-    }
-
     p{
         padding: 0 12px;
-        margin-bottom: 24px;
+        margin-bottom: 12px;
         text-align: center;
+        font-size: 28px;
         color: rgba(186, 0, 0, 0.796)
     }
 
@@ -448,6 +455,10 @@ body {
 }
 
 @media (max-width: 360px) {
+
+    .dropdown-toggle {
+         padding: 28px 32px;
+    }
 
     a {
          margin-bottom: 12px;
