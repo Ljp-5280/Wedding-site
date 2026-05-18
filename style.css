@@ -10,6 +10,7 @@
    font-weight: 400;
    font-style: normal;
    scroll-behavior: smooth;
+   overflow: visible;
 }
 
 
@@ -185,7 +186,7 @@ div {
   border: 1px solid;
 }
 
-.registry__btn:hover, .dropdown-toggle:hover {
+.registry__btn:hover {
   background-color: black;
   transition: all 300ms ease;
   color: rgb(162, 16, 16);
@@ -229,9 +230,7 @@ div {
   color: black;
 }
 
-.dropdown-content a:hover {
-  background-color: rgb(162, 16, 16)
-}
+
 
 /* Show menu on hover or focus */
 .dropdown:focus-within .dropdown-content {
