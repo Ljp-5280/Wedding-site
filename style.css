@@ -12,10 +12,6 @@
    scroll-behavior: smooth;
 }
 
-footer {
-    width: 100%;
-    color: black;
-}
 
 
 
@@ -256,14 +252,13 @@ div {
 }
 
 footer {
-    position: fixed;
+    margin-top: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
-  bottom: 0; 
-  left: 0;
   height: 8vh;
-  background-color: black; 
+  width: 100%;
+  background-color: transparent; 
   color: white; 
   text-align: center; 
   padding: 10px 0; 
